@@ -27,7 +27,7 @@ body {
 
 .container {
     background-color: var(--White);
-    width: 700px;
+    max-width: 700px;
     padding: 25px 35px;
     /* border: 2px solid red; */
     border-radius: 15px;
@@ -38,6 +38,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 25px;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
     gap: 25px;
 }
 
@@ -148,4 +154,24 @@ span {
 
 .nutrition p:last-child, .values p:last-child {
     border-bottom: none;
+}
+
+
+@media screen and (max-width: 540px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .recipe {
+        padding: 0 25px;
+    }
+
+    .img img {
+        border-radius: 0;
+    }
+
+    .heading h3 {
+        font-size: 28px ;
+    }
 }
