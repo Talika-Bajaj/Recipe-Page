@@ -80,7 +80,7 @@ main {
     color: var(--Dark_Charcoal);
     border-radius: 12px;
     font-family: "Outfit", sans-serif;
-
+    
 }
 
 .small {
@@ -98,6 +98,7 @@ span {
 
 .prep ul li, .ingre ul li, .ins ol li {
     padding-left: 10px;
+    color: var(--Dark_Charcoal);
     margin-bottom: 8px;
     font-family: "Outfit", sans-serif;
 
@@ -112,7 +113,7 @@ span {
     color: var(--Nutmeg);
     font-size: 25px;
     margin-bottom: 18px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: "Young Serif", serif;
 
 }
@@ -144,17 +145,18 @@ span {
     font-family: "Outfit", sans-serif;
 }
 
-.values p {
-    font-family: "Outfit", sans-serif;
-    color: var(--Nutmeg);
-}
-
 .nutrition p, .values p {
+    color: var(--Wenge_Brown);
     /* padding: 0 12px; */
     font-family: "Outfit", sans-serif;
     font-weight: 600;
     padding: 10px 20px;
     border-bottom: 1px solid var(--Light_Grey);
+}
+
+.values p {
+    font-family: "Outfit", sans-serif;
+    color: var(--Nutmeg) ;
 }
 
 .nutrition p:last-child, .values p:last-child {
